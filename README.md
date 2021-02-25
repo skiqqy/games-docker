@@ -7,7 +7,7 @@ $ sudo docker build -t "games:latest" .
 ````
 
 ## Running
-Something like.
+Something like,
 ````
 $ docker run --name games \
 		-p 80:80 \
@@ -15,4 +15,4 @@ $ docker run --name games \
 ````
 
 ## Other
-Once built and the docker container has been run, you can go to `https://localhost:80/` and access the games.
+Once built and the docker container has been run, you can go to `http://localhost:80/` and access the games.
